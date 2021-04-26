@@ -1,6 +1,6 @@
 # udemy-complete-javascript
 
-<h1>[Udemy] The Complete JavaScript Course 2021: From Zero to Expert! </h1>
+<h1>[Udemy] The Complete JavaScript Course 2021: From Zero to Expert! By Jonas Schmedtmann</h1>
 <ul>
   <li>Learning JavaScript Fundamentals</li>
   <li>Learning JavaScript in the Browser</li>  

@@ -2,17 +2,16 @@
 	"name": "forkify",
 	"version": "1.0.0",
 	"description": "Searching Recipes application",
-	"main": "index.html",
+	"default": "index.html",
 	"scripts": {
-		"start": "npx parcel index.html",
-		"build": "npx parcel build index.html"
+		"start": "parcel serve index.html",
+		"build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
 	},
 	"author": "Sol Ahn",
 	"license": "ISC",
 	"devDependencies": {
-		"@parcel/transformer-sass": "^2.0.0-beta.2",
-		"parcel": "^2.0.0-beta.1",
-		"parcel-bundler": "^1.12.5",
+		"@parcel/transformer-sass": "2.0.0-beta.3.1",
+		"parcel": "^2.0.0-beta.3.1",
 		"sass": "^1.26.10"
 	},
 	"plugins": [
@@ -24,6 +23,7 @@
 	"dependencies": {
 		"core-js": "^3.14.0",
 		"fractional": "^1.0.0",
-		"regenerator-runtime": "^0.13.7"
+		"regenerator-runtime": "^0.13.7",
+		"yarn": "^1.22.10"
 	}
 }
